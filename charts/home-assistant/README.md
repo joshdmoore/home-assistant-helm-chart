@@ -1,8 +1,8 @@
 # Helm chart for Home Assistant
 
-![Latest Released Version](https://img.shields.io/github/v/tag/pajikos/home-assistant-helm-chart?sort=semver)
-![Helm Chart Release](https://github.com/pajikos/home-assistant-helm-chart/actions/workflows/build-helm-chart-release.yaml/badge.svg)
-![Auto-update latest HA version](https://github.com/pajikos/home-assistant-helm-chart/actions/workflows/check_ha_release.yml/badge.svg)
+![Latest Released Version](https://img.shields.io/github/v/tag/joshdmoore/home-assistant-helm-chart?sort=semver)
+![Helm Chart Release](https://github.com/joshdmoore/home-assistant-helm-chart/actions/workflows/build-helm-chart-release.yaml/badge.svg)
+![Auto-update latest HA version](https://github.com/joshdmoore/home-assistant-helm-chart/actions/workflows/check_ha_release.yml/badge.svg)
 [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/helm-hass)](https://artifacthub.io/packages/search?repo=helm-hass)
 
 ## Introduction
@@ -22,9 +22,9 @@ It is updated **automatically** with each new release of Home Assistant, ensurin
 To deploy Home Assistant using this Helm chart, follow these steps:
 
 ```console
-$ helm repo add pajikos http://pajikos.github.io/home-assistant-helm-chart/
+$ helm repo add joshdmoore http://joshdmoore.github.io/home-assistant-helm-chart/
 $ helm repo update
-$ helm install home-assistant pajikos/home-assistant
+$ helm install home-assistant joshdmoore/home-assistant
 ```
 
 This will deploy Home Assistant with the default configuration. See the [Configuration](#configuration) section for details on customizing the deployment.
